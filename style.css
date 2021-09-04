@@ -1,0 +1,17 @@
+/* default state of anchor (a) tag is link. during that state we can define styles 
+to that links using :link psedo class */
+
+a:link {
+    color: chartreuse;
+}
+
+/* till this link is visited it will be in chartreuse color once it is visited
+it will change to default color */
+
+
+/* using anchor tag selector also will do a same job it will style the links in 
+default state we can either use :link psedo or a tag selector */
+
+a {
+    color: chartreuse;
+}
